@@ -31,12 +31,14 @@ int main(int argc, const char* argv[])
         exit(1);
 
     } else if (argc == 3) {
-        printf("Usage: cb <file.c> -i <header1.h> <header2.h> ...\n"
-               "Without the angle brackets!\n");
+        printf("Usage: %s <file.c> -i <header1.h> <header2.h> ...\n"
+               "Without the angle brackets!\n",
+            argv[0]);
         exit(1);
     } else if (strcmp(argv[2], "-i") != 0) {
-        printf("Usage: cb <file.c> -i <header1.h> <header2.h> ...\n"
-               "Without the angle brackets!\n");
+        printf("Usage: %s <file.c> -i <header1.h> <header2.h> ...\n"
+               "Without the angle brackets!\n",
+            argv[0]);
         exit(1);
     } else {
         exec(argc, argv);
