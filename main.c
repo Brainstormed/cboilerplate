@@ -18,8 +18,7 @@ void exec(int argc, const char* argv[])
     }
 
     fprintf(fout, "\nint main(void)\n"
-                  "{\n    printf(\"Hello, world!\\n\");\n"
-                  "\n    return 0;\n}\n");
+                  "{\n    return 0;\n}\n");
 }
 
 int main(int argc, const char* argv[])
