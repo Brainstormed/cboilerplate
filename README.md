@@ -6,7 +6,7 @@ This simple utility can be used to create a very minimal C Boilerplate.
 
 ### Clone git repo
 
-```$ git clone https://github.com/Brainstormed/cboilerplate```
+```$ git clone https://github.com/Brainstormed/cboilerplate.git```
 
 ```$ cd cboilerplate```
 
